@@ -1,33 +1,62 @@
 library("GA")
 library("smoof")
-library("plot3Drgl")
+library("vioplot")
 
-lowerBound = c(5.12, 5.12)
-lowerBound = c(-5.12, -5.12)
-
-fn = makeMichalewiczFunction(2, 10)
-
-michalewicz <- function(x1, x2) {
-  res <- c()
-  for(i in 1:length(x1)) {
-    res <- append(res, fn(c(x1[i], x2[i])))
-  }
-  return(res)
+minUsingGA <- function(fn_raw, nRepeats, maxIterations) {
+  GA <- numeric(0)
+  params = attr(fn_raw, "par.set")$pars$x
+  lowerBound = params$lower
+  upperBound = params$upper
+  nDimensions = params$len
+  
+  resArray = replicate(
+    n=nRepeats, 
+    fn_raw(GA <- ga(type = "real-valued", 
+                    fitness = fn_raw,
+                    lower = lowerBound, 
+                    upper = upperBound, 
+                    popSize = 50, 
+                    maxiter = maxIterations, 
+                    run = maxIterations / 10
+    )@solution[,1:nDimensions]
+    )
+  )
+  
+  return(resArray)
 }
 
-michalewicz(c(3,2), c(3,3))
+nRep = 5
 
-x1 <- x2 <- seq(-5.12, 5.12, by = 0.1)
+run1 <- minUsingGA(makeSchwefelFunction(2), nRep, 1000)
+#run2 <- minUsingGA(makeSchwefelFunction(10), nRep, 1000)
+#run3 <- minUsingGA(makeSchwefelFunction(20), nRep, 1000)
 
-GA <- ga(type = "real-valued", 
-         fitness =  function(x) -michalewicz(x[1], x[2]),
-         lower = c(-5.12, -5.12), upper = c(5.12, 5.12), 
-         popSize = 50, maxiter = 1000, run = 100)
+vioplot(run1)
+#run2
+#run3
 
-filled.contour(x1, x2, f, color.palette = bl2gr.colors, 
-               plot.axes = { axis(1); axis(2); 
-                 points(GA@solution[,1], GA@solution[,2], 
-                        pch = 3, cex = 2, col = "white", lwd = 2) }
-)
+#averageMinUsingGA(makeMichalewiczFunction(20, 20), uBound, lBound, nRep, 20)
 
-plot(GA)
+# 
+# fn <- function(x1, x2) {
+#   res <- c()
+#   for(i in 1:length(x1)) {
+#     res <- append(res, fn_raw(c(x1[i], x2[i])))
+#   }
+#   return(res)
+# }
+# x1 <- x2 <- seq(-500, 500, by = 10)
+# filled.contour(x1, x2,
+#                outer(x1, x2, fn),
+#                color.palette = bl2gr.colors,
+#                plot.axes = { axis(1);
+#                  axis(2);
+#                  points(GA@solution[,1],
+#                         GA@solution[,2],
+#                         pch = 3,
+#                         cex = 2,
+#                         col = "white",
+#                         lwd = 2
+#                  )
+#                }
+# )
