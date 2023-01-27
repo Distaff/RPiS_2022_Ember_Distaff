@@ -7,7 +7,7 @@ minUsingPRS<-function(fn_raw, nRepeats, points){
   res_array=replicate(n = nRepeats,
                       {pom = array(c(runif(points,lowerBound,upperBound)),dim = c(points,nDimensions))
                       min = fn_raw(c(pom[1,]))
-                      for (i in range(2:1000)) {
+                      for (i in range(2:points)) {
                         if (fn_raw(c(pom[i,])) < min)
                         {min = fn_raw(c(pom[i,]))}
                       }
