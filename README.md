@@ -11,3 +11,4 @@ Autorzy: Ewelina Badeja, Piotr Kądziela
 ----------------------------------------------------
   
     
+![alt text](https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/R10_GA.png)
