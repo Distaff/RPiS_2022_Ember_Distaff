@@ -1,0 +1,25 @@
+> mean(GArun1)
+[1] -837.9528
+> mean(GArun2)
+[1] -4186.097
+> mean(GArun3)
+[1] -8257.089
+> mean(GArun4)
+[1] 0.0007437699
+> mean(GArun5)
+[1] 12.78813
+> mean(GArun6)
+[1] 56.99735
+> 
+> mean(PRSrun1)
+[1] -343.6744
+> mean(PRSrun2)
+[1] -1736.445
+> mean(PRSrun3)
+[1] -3727.947
+> mean(PRSrun4)
+[1] 16486.75
+> mean(PRSrun5)
+[1] 36054.52
+> mean(PRSrun6)
+[1] 164054.7

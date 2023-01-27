@@ -8,7 +8,7 @@ minUsingGA <- function(fn_raw, nRepeats, maxIterations) {
   resArray = replicate(
     n=nRepeats,
     fn_raw(GA <- ga(type = "real-valued",
-                    fitness = fn_raw,
+                    fitness = function(x) -fn_raw(x),
                     lower = lowerBound,
                     upper = upperBound,
                     popSize = 50,
