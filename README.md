@@ -11,7 +11,7 @@ Autorzy: Ewelina Badeja, Piotr Kądziela
     
 --------------------------------------------
   
-![alt text](/Proj/results/S2_GA.png) ![alt text](/Proj/results/S2_PRS.png)
+![alt text](/Proj/results/S2_GA.png) ![alt text](/Proj/results/S2_PRS.png | width=250px)
 ![alt text](Proj/results/V_S2_GA.png) ![alt text](Proj/results/V_S2_PRS.png)
 > mean(GArun1)
 [1] -837.9528
