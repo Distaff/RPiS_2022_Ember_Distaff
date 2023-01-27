@@ -4,12 +4,12 @@ Autorzy: Ewelina Badeja, Piotr Kądziela
   Projekt miał na celu porównanie dwóch algorytmów do znajdowania minimum: PRS (Pure Random Serach) i GA (Genetic Algorithm). Zgodnie z oczekiwaniami GA dał lepsze wyniki, jednak PRS potrzebował znacznie  czasu na obliczenia (czas na wykonanie wszystkich obliczeń przez RS był rzędku kilku sekund, a przez GA kilku minut).
   Program został napisany w języku R, z wykorzystaniem funkcji Schwefela i Rosenbrocka jako funkcji testowych. Wykorzystaliśym implementacje tych funkcji z biblioteki smoof.
   
-  ------------UWAGA!!!!!!!!!!---------------
+------------------ UWAGA!!! ------------------
  
-    W bibliotece smoof w funkcji Michalewicza jest błąd. Funkcja niezależnie od ilości wymiarów zawsze żąda dwuelementowego wektora współrzędnych. Nie przeszkadza to przy funkcji Michalewicza dla 2 wymiarów, jednak dla 10 funkcja nie jest w stanie przyjąć poprawnego (10-elementowego) wektora.
-    BŁąd został przez nas zgłoszony na oficjalnym githubie biblioteki.
-    
- --------------------------------------------
+  W bibliotece smoof w funkcji Michalewicza jest błąd. Funkcja niezależnie od ilości wymiarów zawsze żąda dwuelementowego wektora współrzędnych. Nie przeszkadza to przy funkcji Michalewicza dla 2 wymiarów, jednak dla 10 funkcja nie jest w stanie przyjąć poprawnego (10-elementowego) wektora.
+BŁąd został przez nas zgłoszony na oficjalnym githubie biblioteki.
+
+----------------------------------------------
 
 
 <img src="https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/S2_GA.png?raw=true" width="400"/>  <img src="https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/S2_PRS.png?raw=true" width="400"/> </br>
