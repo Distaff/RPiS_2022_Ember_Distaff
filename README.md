@@ -10,29 +10,31 @@ Autorzy: Ewelina Badeja, Piotr Kądziela
     
 ----------------------------------------------------
   
-![alt text](https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/S2_GA.png) ![alt text](https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/S2_PRS.png)
-
-![alt text](https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/V_S2_GA.png)
-![alt text](https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/V_S2_PRS.png)
-![alt text](https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/S10_GA.png)
-![alt text](https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/V_S10_GA.png)
-![alt text](https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/S10_PRS.png)
-![alt text](https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/V_S10_PRS.png)
-![alt text](https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/S20_GA.png)
-![alt text](https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/V_S20_GA.png)
-![alt text](https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/S20_PRS.png)
-![alt text](https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/V_S20_PRS.png)
+![alt text](/Proj/results/S2_GA.png) ![alt text](/Proj/results/S2_PRS.png)
+![alt text](Proj/results/V_S2_GA.png) ![alt text](Proj/results/V_S2_PRS.png)
 
 
-![alt text](https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/R2_GA.png)
-![alt text](https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/V_R2_GA.png)
-![alt text](https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/R2_PRS.png)
-![alt text](https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/V_R2_PRS.png)
-![alt text](https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/R10_GA.png)
-![alt text](https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/V_R10_GA.png)
-![alt text](https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/R10_PRS.png)
-![alt text](https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/V_R10_PRS.png)
-![alt text](https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/R20_GA.png)
-![alt text](https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/V_R20_GA.png)
-![alt text](https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/R20_PRS.png)
-![alt text](https://github.com/Distaff/RPiS_2022_Ember_Distaff/blob/main/Proj/results/V_R20_PRS.png)
+
+![alt text](Proj/results/S10_GA.png) ![alt text](Proj/results/S10_PRS.png)
+![alt text](Proj/results/V_S10_PRS.png) ![alt text](Proj/results/V_S10_GA.png)
+
+
+
+![alt text](Proj/results/S20_GA.png)![alt text](Proj/results/S20_PRS.png)
+![alt text](Proj/results/V_S20_GA.png)![alt text](Proj/results/V_S20_PRS.png)
+
+
+
+![alt text](Proj/results/R2_GA.png)![alt text](Proj/results/R2_PRS.png)
+![alt text](Proj/results/V_R2_GA.png)![alt text](Proj/results/V_R2_PRS.png)
+
+
+
+![alt text](Proj/results/R10_GA.png)![alt text](Proj/results/R10_PRS.png)
+![alt text](Proj/results/V_R10_GA.png)![alt text](Proj/results/V_R10_PRS.png)
+
+
+
+![alt text](Proj/results/R20_GA.png)![alt text](Proj/results/R20_PRS.png)
+![alt text](Proj/results/V_R20_GA.png)![alt text](Proj/results/V_R20_PRS.png)
+
