@@ -12,7 +12,7 @@ UWAGA!!!
 
   W bibliotece smoof w funkcji Michalewicza jest błąd. Funkcja niezależnie od ilości wymiarów zawsze żąda dwuelementowego wektora współrzędnych. Nie przeszkadza to przy funkcji Michalewicza dla 2 wymiarów, jednak dla 10 funkcja nie jest w stanie przyjąć poprawnego (10-elementowego) wektora.
 BŁąd został przez nas zgłoszony na oficjalnym githubie biblioteki.
-  Po kontakcie z twórcą biblioteki okazało się, że błąd został już naprawiony w commicie ![0022105](URL "https://github.com/jakobbossek/smoof/commit/00221051730d73a85235d771bf2382a026babb5c](https://github.com/jakobbossek/smoof/commit/00221051730d73a85235d771bf2382a026babb5c") z 2021, jednak do tej pory poprawiona wersja nie trafiła do CRAN.
+  Po kontakcie z twórcą biblioteki okazało się, że błąd został już naprawiony w commicie ![0022105](URL "https://github.com/jakobbossek/smoof/commit/00221051730d73a85235d771bf2382a026babb5c](https://github.com/jakobbossek/smoof/commit/00221051730d73a85235d771bf2382a026babb5c") z 2021 roku, jednak do tej pory poprawiona wersja nie trafiła do CRAN.
 
 ----------------------------------------------
 
